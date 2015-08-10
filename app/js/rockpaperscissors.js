@@ -79,6 +79,7 @@ function playToFive() {
     return [playerWins, computerWins];
 }
 
+//play rock paper scissors until a specified amount of wins
 function playTo(x) {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
